@@ -1,0 +1,27 @@
+---
+title: "process_data"
+output: html_document
+---
+
+
+
+```{r}
+library(readxl)
+library(dplyr)
+```
+
+## read
+```{r}
+spectral_example <- read_excel("data_samples.xlsx")
+```
+
+## filter
+```{r}
+spectral_example <- spectral_example |>
+  filter(!is.na(sample_id))
+```
+
+## save
+```{r}
+usethis::use_data(spectral_example, overwrite = TRUE)
+```
