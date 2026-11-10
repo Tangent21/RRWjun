@@ -20,9 +20,23 @@ knitr::opts_chunk$set(
 
 This package isfor practicing how to creat R packages. The goal of RRWjun is to provide functions to calculate commonly used remote sensing indices from spectral band values.
 
-- **NDVI**: Normalized Difference Vegetation Index
-- **EVI**: Enhanced Vegetation Index
-- **NDWI**: Normalized Difference Water Index
+**NDVI** (Normalized Difference Vegetation Index)
+
+$$
+\mathrm{NDVI} = \frac{NIR - Red}{NIR + Red}
+$$
+
+**EVI** (Enhanced Vegetation Index)
+
+$$
+\mathrm{EVI} = 2.5 \times \frac{NIR - Red}{NIR + 6 \times Red - 7.5 \times Blue + 1}
+$$
+
+**NDWI** (Normalized Difference Water Index)
+
+$$
+\mathrm{NDWI} = \frac{Green - NIR}{Green + NIR}
+$$
 
 ## Installation
 
