@@ -7,9 +7,10 @@
 
 <!-- badges: end -->
 
-This package isfor practicing how to creat R packages. The goal of
-RRWjun is to provide functions to calculate commonly used remote sensing
-indices from spectral band values.
+This package is for practicing how to creat R
+packages([Reproducible-Research-WorkflowPublic](https://github.com/paezha/Reproducible-Research-Workflow)).
+The goal of RRWjun is to provide functions to calculate commonly used
+remote sensing indices from spectral band values.
 
 **NDVI** (Normalized Difference Vegetation Index)
 
