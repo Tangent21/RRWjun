@@ -1,11 +1,11 @@
 Package: RRWjun
-Title: What the Package Does (One Line, Title Case)
+Title: A Package for Calculating Remote Sensing Indices
 Version: 0.0.0.9000
 Authors@R: 
     person("Jun", "Tan", , 
             email= "tan17@mcmaster.ca", 
             role = c("aut", "cre"))
-Description: A package of calculating remote sensing indices.
+Description: This is a simple package for calculating remote sensing indices.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
